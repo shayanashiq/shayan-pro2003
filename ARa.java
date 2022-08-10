@@ -4,7 +4,7 @@ class ARa{
         int month_days[];
        // String month_days[]=new String[12];
         //=new String[12];month_names[]
-        String month_names[]={"jan","feb","march","aprial","may","june","july","aug","sep","oct","nov","dec"};
+        String month_names[]={"jan","feb","march","april","may","june","july","aug","sep","oct","nov","dec"};
 
         month_days=new int[12];
         month_days[0]=31;
@@ -26,7 +26,7 @@ class ARa{
             {
                 System.out.println("Days in "+month_names[i]+ " are ="+month_days[a]);
             }
-            continue;
+           // continue;
         }
     }
 
